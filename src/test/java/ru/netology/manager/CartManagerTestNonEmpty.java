@@ -29,7 +29,7 @@ public class CartManagerTestNonEmpty {
 
     @Test
     public void shouldNotRemoveIfNotExists() {
-        CartManager manager = new CartManager();git init
+        CartManager manager = new CartManager();
 
         PurchaseItem first = new PurchaseItem(1, 1, "first", 1, 1);
         PurchaseItem second = new PurchaseItem(2, 2, "second", 1, 1);
